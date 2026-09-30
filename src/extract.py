@@ -56,6 +56,6 @@ bronze_path = Path("data/bronze/stock_raw.json")
 with open(bronze_path, "w") as f:
     json.dump(data, f, default=str, indent=4)
 
-print("✅ Raw stock data saved")
+print("Raw stock data saved")
 print(f"Records: {len(data)}")
 print(f"File: {bronze_path}")
